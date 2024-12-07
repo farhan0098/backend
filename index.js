@@ -13,7 +13,7 @@ dotenv.config();
 const PORT = process.env.PORT||8000;
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!');
+    res.send('Hello, world! farhan');
 });
 app.use(cors())
 app.use("/albums", albumRoutes)
